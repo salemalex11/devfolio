@@ -17,6 +17,14 @@ module.exports = {
     about:
       '4th year student at the University of Toronto Mississauga. Double major in CS and CCIT. Aspiring SDE/SWE. Interested in AI/ML, Automation, Cybersecurity, Ethics, Front-End/Back-End/Full-Stack, Mobile, Web, UI/UX.',
 
+    education: [
+      {
+        name: 'University of Toronto (Sept. 2017 - Aug. 2021)',
+        description:
+          "HBSc in Computer Science. GPA: 3.67/4.00. Dean's List Scholar (2017 - 2020).",
+      },
+    ],
+    
     experience: [
       {
         name: 'Apple (Sept. 2017 - Present)',
@@ -25,14 +33,55 @@ module.exports = {
       },
     ],
 
-    education: [
+    projects: [
       {
-        name: 'University of Toronto (Sept. 2017 - Aug. 2021)',
+        name: 'social-connect (2020)',
         description:
-          "HBSc in Computer Science. GPA: 3.67/4.00. Dean's List Scholar (2017 - 2020).",
+          'Web app used for playing real-time chess with friends online. React, Node, Express, SocketIO.',
+        link: 'https://github.com/salemalex11/social-connect',
+      },
+      {
+        name: 'mentAlly (2020)',
+        description:
+          'Android app used for habit/mood tracking, exercises, self-assessments, and helplines. Android Studio, Java, Firebase',
+        link: 'https://github.com/salemalex11/mentAlly',
+      },
+      {
+        name: 'song-micro (2020)',
+        description:
+          'RESTful API microservices used to create playlists, like music, and follow users. Java, MongoDB, Neo4j',
+        link: 'https://github.com/salemalex11/song-micro',
+      },
+      {
+        name: 'mongo-blog (2020)',
+        description:
+          'RESTful API used to create and read blog posts. Java, MongoDB',
+        link: 'https://github.com/salemalex11/mongo-blog',
+      },
+      {
+        name: 'bacon-law (2020)',
+        description:
+          'RESTful API used to calculate Bacon’s Law for a given actor/actress. Java, Neo4j',
+        link: 'https://github.com/salemalex11/bacon-law',
+      },
+      {
+        name: 'studenTax (2020)',
+        description: 'Tax calculator for students. Python, TkInter.',
+        link: 'https://github.com/salemalex11/studenTax',
+      },
+      {
+        name: 'gomoku (2019)',
+        description: '2+ player japanese board game. Python, PyGame',
+        link: 'https://github.com/salemalex11/gomoku',
+      },
+      {
+        name: 'twitter-scraper (2019)',
+        description:
+          'Twitter scraper used to perform analytics and export to CSV. Python, Requests, BeautifulSoup',
+        link: 'https://github.com/salemalex11/twitter-scraper',
       },
     ],
-
+    
     skills: [
       {
         name: 'Languages',
@@ -57,56 +106,8 @@ module.exports = {
           'Bilingual (English/French), Apple Certified iOS Technician (ACiT)',
       },
     ],
-
-    projects: [
-      {
-        name: 'social-connect',
-        description:
-          'Web app used for playing real-time chess with friends online. React.js, Node.js, Express.js, Socket.io',
-        link: 'https://github.com/salemalex11/social-connect',
-      },
-      {
-        name: 'mentAlly',
-        description:
-          'Android app used for habit/mood tracking, exercises, self-assessments, and helplines. Android Studio, Java, Firebase',
-        link: 'https://github.com/salemalex11/mentAlly',
-      },
-      {
-        name: 'song-micro',
-        description:
-          'RESTful API microservices used to create playlists, like music, and follow users. Java, MongoDB, Neo4j',
-        link: 'https://github.com/salemalex11/song-micro',
-      },
-      {
-        name: 'mongo-blog',
-        description:
-          'RESTful API used to create and read blog posts. Java, MongoDB',
-        link: 'https://github.com/salemalex11/mongo-blog',
-      },
-      {
-        name: 'bacon-law',
-        description:
-          'RESTful API used to calculate Bacon’s Law for a given actor/actress. Java, Neo4j',
-        link: 'https://github.com/salemalex11/bacon-law',
-      },
-      {
-        name: 'studenTax',
-        description: 'Tax calculator for students. Python, TkInter, ttk',
-        link: 'https://github.com/salemalex11/studenTax',
-      },
-      {
-        name: 'gomoku',
-        description: '2+ player japanese board game. Python, PyGame',
-        link: 'https://github.com/salemalex11/gomoku',
-      },
-      {
-        name: 'twitter-scraper',
-        description:
-          'Twitter scraper used to perform analytics and export to CSV. Python, Requests, BeautifulSoup',
-        link: 'https://github.com/salemalex11/twitter-scraper',
-      },
-    ],
   },
+  
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
