@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://salemalex11.netlify.app`,
 
     name: 'Alex Lamouri',
 
@@ -43,41 +43,41 @@ module.exports = {
       {
         name: 'mentAlly (2020)',
         description:
-          'Android app used for habit/mood tracking, exercises, self-assessments, and helplines. Android Studio, Java, Firebase',
+          'Android app used for habit/mood tracking, exercises, self-assessments, and helplines. Android Studio, Java, Firebase.',
         link: 'https://github.com/salemalex11/mentAlly',
       },
       {
         name: 'song-micro (2020)',
         description:
-          'RESTful API microservices used to create playlists, like music, and follow users. Java, MongoDB, Neo4j',
+          'RESTful API microservices used to create playlists, like music, and follow users. Java, MongoDB, Neo4j.',
         link: 'https://github.com/salemalex11/song-micro',
       },
       {
         name: 'mongo-blog (2020)',
         description:
-          'RESTful API used to create and read blog posts. Java, MongoDB',
+          'RESTful API used to create and read blog posts. Java, MongoDB.',
         link: 'https://github.com/salemalex11/mongo-blog',
       },
       {
         name: 'bacon-law (2020)',
         description:
-          'RESTful API used to calculate Bacon’s Law for a given actor/actress. Java, Neo4j',
+          'RESTful API used to calculate Bacon’s Law for a given actor/actress. Java, Neo4j.',
         link: 'https://github.com/salemalex11/bacon-law',
       },
       {
         name: 'studenTax (2020)',
-        description: 'Tax calculator for students. Python, TkInter.',
+        description: 'Tax calculator for students. Python, Tkinter.',
         link: 'https://github.com/salemalex11/studenTax',
       },
       {
         name: 'gomoku (2019)',
-        description: '2+ player japanese board game. Python, PyGame',
+        description: '2+ player japanese board game. Python, PyGame.',
         link: 'https://github.com/salemalex11/gomoku',
       },
       {
         name: 'twitter-scraper (2019)',
         description:
-          'Twitter scraper used to perform analytics and export to CSV. Python, Requests, BeautifulSoup',
+          'Twitter scraper used to perform analytics and export to CSV. Python, Requests, BeautifulSoup.',
         link: 'https://github.com/salemalex11/twitter-scraper',
       },
     ],
