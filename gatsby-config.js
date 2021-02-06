@@ -43,7 +43,7 @@ module.exports = {
       {
         name: 'mentAlly (2020)',
         description:
-          'Android app used for habit/mood tracking, exercises, self-assessments, and helplines. Android Studio, Java, Firebase.',
+          'Android app used for habit/mood tracking, exercises, self-assessments, and helplines. Java, Firebase.',
         link: 'https://github.com/salemalex11/mentAlly',
       },
       {
