@@ -1,75 +1,109 @@
 module.exports = {
   siteMetadata: {
-    // Site URL for when it goes live
     siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
-    // Your Name
-    name: 'Ryan Fitzgerald',
-    // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
-    // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
-    // Optional: Twitter account handle
-    author: `@rfitzio`,
-    // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
-    // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
-    // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
-    // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-    projects: [
-      {
-        name: 'Devfolio',
-        description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'ChromeExtensionKit',
-        description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
-      },
-      {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-    ],
-    // Optional: List your experience, they must have `name` and `description`. `link` is optional.
+
+    name: 'Alex Lamouri',
+
+    title: `Alex Lamouri's Portfolio`,
+
+    description: `Computer Science @ UofT | Technical Expert @ Apple`,
+
+    github: `https://github.com/salemalex11`,
+
+    linkedin: `https://www.linkedin.com/in/salemalex11/`,
+
+    resume: 'https://salemalex11.github.io',
+
+    about:
+      '4th year student at the University of Toronto Mississauga. Double major in CS and CCIT. Aspiring SDE/SWE. Interested in AI/ML, Automation, Cybersecurity, Ethics, Front-End/Back-End/Full-Stack, Mobile, Web, UI/UX.',
+
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Apple (Sept. 2017 - Present)',
+        description: 'Technical Expert, Technical Specialist, Specialist',
+        link: '',
       },
     ],
-    // Optional: List your skills, they must have `name` and `description`.
+
+    education: [
+      {
+        name: 'University of Toronto (Sept. 2017 - Aug. 2021)',
+        description:
+          "HBSc in Computer Science. GPA: 3.67/4.00. Dean's List Scholar (2017 - 2020).",
+      },
+    ],
+
     skills: [
       {
-        name: 'Languages & Frameworks',
-        description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+        name: 'Languages',
+        description: 'Python, Java, C, HTML, CSS, JavaScript',
+      },
+      {
+        name: 'Frameworks',
+        description: 'Flask, React, Node, Express',
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        description: 'MySQL, PostgreSQL, MongoDB, Neo4j',
+      },
+      {
+        name: 'Tools',
+        description:
+          'Git, Docker, Postman, Heroku, Wing, Eclipse, VS Code, Android Studio',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Bilingual (English/French), Apple Certified iOS Technician (ACiT)',
+      },
+    ],
+
+    projects: [
+      {
+        name: 'social-connect',
+        description:
+          'Web app used for playing real-time chess with friends online. React.js, Node.js, Express.js, Socket.io',
+        link: 'https://github.com/salemalex11/social-connect',
+      },
+      {
+        name: 'mentAlly',
+        description:
+          'Android app used for habit/mood tracking, exercises, self-assessments, and helplines. Android Studio, Java, Firebase',
+        link: 'https://github.com/salemalex11/mentAlly',
+      },
+      {
+        name: 'song-micro',
+        description:
+          'RESTful API microservices used to create playlists, like music, and follow users. Java, MongoDB, Neo4j',
+        link: 'https://github.com/salemalex11/song-micro',
+      },
+      {
+        name: 'mongo-blog',
+        description:
+          'RESTful API used to create and read blog posts. Java, MongoDB',
+        link: 'https://github.com/salemalex11/mongo-blog',
+      },
+      {
+        name: 'bacon-law',
+        description:
+          'RESTful API used to calculate Bacon’s Law for a given actor/actress. Java, Neo4j',
+        link: 'https://github.com/salemalex11/bacon-law',
+      },
+      {
+        name: 'studenTax',
+        description: 'Tax calculator for students. Python, TkInter, ttk',
+        link: 'https://github.com/salemalex11/studenTax',
+      },
+      {
+        name: 'gomoku',
+        description: '2+ player japanese board game. Python, PyGame',
+        link: 'https://github.com/salemalex11/gomoku',
+      },
+      {
+        name: 'twitter-scraper',
+        description:
+          'Twitter scraper used to perform analytics and export to CSV. Python, Requests, BeautifulSoup',
+        link: 'https://github.com/salemalex11/twitter-scraper',
       },
     ],
   },
