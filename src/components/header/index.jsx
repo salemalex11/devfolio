@@ -18,49 +18,80 @@ const classes = {
 };
 
 const Header = ({ metadata = {}, noBlog = false }) => {
-  const twitter = get(metadata, 'author', false);
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
 
+  const theme = 'light';
+  const resume = get(metadata, 'resume_' + theme, false);
+  const transcript = get(metadata, 'transcript_' + theme, false);
+
   return (
     <div className={classes.wrapper}>
+
       <div className={classes.imageWrapper}>
         <Link to="/">
-          <img className={classes.image} src={profileImg} alt={metadata.name} />
+          <img 
+          className={classes.image} 
+          src={profileImg} 
+          alt={metadata.name} />
         </Link>
       </div>
+
       <div className={classes.contentWrapper}>
         <h1 className={classes.name}>
           <Link to="/">{metadata.name}</Link>
         </h1>
         <p className={classes.description}>{metadata.description}</p>
         <ul className={classes.list}>
-          {twitter && (
-            <li className={classes.item}>
-              <a
-                className={classes.link}
-                href={`https://twitter.com/${twitter}`}
-              >
-                Twitter
-              </a>
-            </li>
-          )}
           {github && (
             <li className={classes.item}>
-              <a className={classes.link} href={github}>
+              <a 
+              className={classes.link} 
+              href={github} 
+              target="_blank" 
+              rel="noopener noreferrer">
                 GitHub
               </a>
             </li>
           )}
           {linkedin && (
             <li className={classes.item}>
-              <a className={classes.link} href={linkedin}>
+              <a 
+              className={classes.link} 
+              href={linkedin} 
+              target="_blank" 
+              rel="noopener noreferrer">
                 LinkedIn
+              </a>
+            </li>
+          )}
+          {resume && (
+            <li className={classes.item}>
+              <a
+                className={classes.link}
+                href={resume}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Resume
+              </a>
+            </li>
+          )}
+          {transcript && (
+            <li className={classes.item}>
+              <a
+                className={classes.link}
+                href={transcript}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Transcript
               </a>
             </li>
           )}
         </ul>
       </div>
+
     </div>
   );
 };

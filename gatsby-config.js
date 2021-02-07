@@ -12,7 +12,19 @@ module.exports = {
 
     linkedin: `https://www.linkedin.com/in/salemalex11/`,
 
-    resume: 'https://salemalex11.github.io',
+    resume_light:
+      'https://www.dropbox.com/s/91vvi3hwhi8ur4z/resume%202021%20%28light%29.pdf?dl=0',
+    resume_dim:
+      'https://www.dropbox.com/s/pcnwqu1ejtyj73g/resume%202021%20%28dim%29.pdf?dl=0',
+    resume_dark:
+      'https://www.dropbox.com/s/1ipc0bw5tvl5r08/resume%202021%20%28dark%29.pdf?dl=0',
+
+    transcript_light:
+      'https://www.dropbox.com/s/l04hqg8pgw2q6lx/transcript%202021%20%28light%29.pdf?dl=0',
+    transcript_dim:
+      'https://www.dropbox.com/s/4kak6b2r3fkdwda/transcript%202021%20%28dim%29.pdf?dl=0',
+    transcript_dark:
+      'https://www.dropbox.com/s/vx6z2v9ybgsbd2y/transcript%202021%20%28dark%29.pdf?dl=0',
 
     about:
       '4th year student at the University of Toronto Mississauga. Double major in CS and CCIT. Aspiring SDE/SWE. Interested in AI/ML, Automation, Cybersecurity, Ethics, Front-End/Back-End/Full-Stack, Mobile, Web, UI/UX.',
@@ -24,7 +36,7 @@ module.exports = {
           "HBSc in Computer Science. GPA: 3.67/4.00. Dean's List Scholar (2017 - 2020).",
       },
     ],
-    
+
     experience: [
       {
         name: 'Apple (Sept. 2017 - Present)',
@@ -81,7 +93,7 @@ module.exports = {
         link: 'https://github.com/salemalex11/twitter-scraper',
       },
     ],
-    
+
     skills: [
       {
         name: 'Languages',
@@ -107,7 +119,7 @@ module.exports = {
       },
     ],
   },
-  
+
   plugins: [
     `gatsby-plugin-react-helmet`,
     {

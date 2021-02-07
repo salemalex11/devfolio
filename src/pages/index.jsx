@@ -30,8 +30,6 @@ const Index = ({ data }) => {
       )}
       {projects && projects.length && <SectionProjects projects={projects} />}
       {skills && skills.length && <SectionSkills skills={skills} />}
-      
-      
     </Layout>
   );
 };
@@ -49,6 +47,12 @@ export const pageQuery = graphql`
         author
         github
         linkedin
+        resume_light
+        resume_dim
+        resume_dark
+        transcript_light
+        transcript_dim
+        transcript_dark
         experience {
           name
           description
